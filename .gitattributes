@@ -1,0 +1,3 @@
+*.dhall gitlab-language=haskell
+*.purs gitlab-language=haskell
+*.sss gitlab-language=sass
