@@ -2,7 +2,7 @@ let name = "growth-agent-prelude"
 
 in  { name
     , license = "Apache-2.0"
-    , repository = "https://github.com/instateam/purescript-${name}.git"
+    , repository = "https://github.com/growthagent/purescript-${name}.git"
     , dependencies =
       [ "aff"
       , "bifunctors"

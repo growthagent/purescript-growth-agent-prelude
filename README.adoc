@@ -15,7 +15,7 @@ let upstream =
 in  upstream
   with growth-agent-prelude =
     { dependencies = [ "Check the `spago.dhall`" ]
-    , repo = "https://github.com/instateam/purescript-growth-agent-prelude.git"
+    , repo = "https://github.com/growthagent/purescript-growth-agent-prelude.git"
     , version = "$COMMIT_HASH"
     }
 ----
@@ -26,7 +26,7 @@ let name = "my-package"
 
 in  { name
     , license = "Apache-2.0"
-    , repository = "https://github.com/instateam/purescript-${name}.git"
+    , repository = "https://github.com/growthagent/purescript-${name}.git"
     , dependencies =
       [ "..."
       , "growth-agent-prelude"
